@@ -1,0 +1,21 @@
+// BOOTSTRAP OVERRIDES
+
+// Global Variables
+
+$white: #ffffff;
+$grey: #e2e2e2;
+$black: #000000;
+
+body {
+  background: $white;
+}
+
+section.notifications {
+  #modal-win {
+    display: none;
+  }
+  #modal-lose {
+    display: none;
+  }
+
+}

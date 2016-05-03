@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HI-LO</title>
+  <!-- BOOTSTRAP CSS - CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="info">
+        <p id="score">Score: <span id="points">000</span></p>
+        <p id="life">Life Remaining: <span id="lives">3</span></p>
+      </div>
+      <div class="text-center">
+        <h1>Take a Guess! Hi or Lo?</h1>
+        <p class="lead">We have picked a number. Choose below if the number we have picked is higher or lower than 10. Get it right, earn some points. Guess wrong, lose a life. Simple right? Good Luck!</p>
+      </div>
+    </header>
+    <section>
+      <button id="lo" type="button" class="btn btn-info" onclick="">LO &#11015;</button>
+      <button id="hi" type="button" class="btn btn-info" onclick="">HI &#11014;</button>
+    </section>
+    <section class="notifications">
+      <div id="modal-win">
+        <h2>YOU WIN!</h2>
+        <p id="final-score">Final Score: <span id="total-score">score here</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ex ipsam veritatis porro.</p>
+        <button id="try-again" onclick="">PLAY AGAIN!</button>
+      </div>
+      <div id="modal-lose">
+        <h2>YOU LOSE!</h2>
+        <p id="final-score">Final Score: <span id="total-score">score here</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ex ipsam veritatis porro.</p>
+        <button id="try-again" onclick="">TRY AGAIN!</button>
+      </div>
+    </section>
+    
+    <footer>
+      <p><small>©2016 Tom Studer</small></p>
+    </footer>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- BOOTSTRAP jS - CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+  background: #ffffff; }
+
+section.notifications #modal-win {
+  display: none; }
+section.notifications #modal-lose {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
