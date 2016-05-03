@@ -15,10 +15,10 @@ body {
 }
 
 section.notifications {
-  #modal-win {
+  .modal-win {
     display: none;
   }
-  #modal-lose {
+  .modal-lose {
     display: none;
   }
 }
@@ -34,4 +34,8 @@ footer {
       color: $black;
     }
   }
+}
+
+.display {
+  display: block;
 }

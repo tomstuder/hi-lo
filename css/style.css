@@ -4,9 +4,9 @@ body {
     margin: .5em 0em;
     font-weight: bold; }
 
-section.notifications #modal-win {
+section.notifications .modal-win {
   display: none; }
-section.notifications #modal-lose {
+section.notifications .modal-lose {
   display: none; }
 
 footer {
@@ -17,5 +17,8 @@ footer {
     footer a:hover {
       text-decoration: underline;
       color: #000000; }
+
+.display {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
