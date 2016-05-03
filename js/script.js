@@ -1,14 +1,17 @@
 // Variables
 
-    var score;
-    var totalScore;
-    var lives;
+    var score = 0;
+    var totalScore = 0;
+    var lives = 3;
     var livesLeft;
-    var number;
-    var randomNumber;
 
-// Functions
+// Random Number Generator
+    var randomNumber = Math.floor((Math.random() * 20) + 1);
 
-    // Random Number Generator
-    // Button Hi
-    // Button Lo
+// Button Hi
+// Button Lo
+
+// Testing
+    console.log(randomNumber);
+    console.log("hello world");
+

@@ -26,4 +26,12 @@ section.notifications {
 footer {
   // background-color: $black;
   color: $grey;
+  a {
+    text-decoration: none;
+    color: $grey;
+    &:hover {
+      text-decoration: underline;
+      color: $black;
+    }
+  }
 }
