@@ -10,21 +10,26 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <div id="info">
-        <p id="score">Score: <span id="points">000</span></p>
-        <p id="life">Life Remaining: <span id="lives">3</span></p>
-      </div>
+    <div class="row">
+      <div id="info" class="col-xs-12">
+        <p id="score" class="col-xs-6">Score: <span id="points">000</span></p>
+        <p id="life" class="col-xs-6 text-right">Life Remaining: <span id="lives">3</span></p>
+      </div> 
+    </div>
+    <header class="jumbotron">
       <div class="text-center">
         <h1>Take a Guess! Hi or Lo?</h1>
-        <p class="lead">We have picked a number. Choose below if the number we have picked is higher or lower than 10. Get it right, earn some points. Guess wrong, lose a life. Simple right? Good Luck!</p>
+        <p class="lead text-muted">We have picked a number. Choose below if the number we have picked is higher or lower than 10. Get it right, earn some points. Guess wrong, lose a life. Simple right? Good Luck!</p>
       </div>
+      <section class="row">
+        <div class="col-xs-12">
+          <button id="lo" type="button" href="#" role="button" class="btn btn-info btn-lg col-xs-5 col-md-6" onclick="">LO &#11015;</button>
+          <button id="hi" type="button" href="#" role="button" class="btn btn-info btn-lg  col-xs-offset-2 col-xs-5 col-md-offset-0 col-md-6" onclick="">HI &#11014;</button>
+        </div>
+
+      </section>
     </header>
-    <section>
-      <button id="lo" type="button" class="btn btn-info" onclick="">LO &#11015;</button>
-      <button id="hi" type="button" class="btn btn-info" onclick="">HI &#11014;</button>
-    </section>
-    <section class="notifications">
+    <section class="notifications row">
       <div id="modal-win">
         <h2>YOU WIN!</h2>
         <p id="final-score">Final Score: <span id="total-score">score here</span></p>
@@ -38,11 +43,11 @@
         <button id="try-again" onclick="">TRY AGAIN!</button>
       </div>
     </section>
-    
-    <footer>
-      <p><small>©2016 Tom Studer</small></p>
-    </footer>
   </div>
+  <!-- FOOTER -->
+  <footer class="row ">
+    <p class="col-xs-12 text-center"><small>©2016 Tom Studer</small></p>
+  </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- BOOTSTRAP jS - CDN -->

@@ -8,6 +8,10 @@ $black: #000000;
 
 body {
   background: $white;
+  #info {
+    margin: .5em 0em;
+    font-weight: bold;
+  }
 }
 
 section.notifications {
@@ -17,5 +21,9 @@ section.notifications {
   #modal-lose {
     display: none;
   }
+}
 
+footer {
+  // background-color: $black;
+  color: $grey;
 }
